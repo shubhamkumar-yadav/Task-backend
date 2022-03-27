@@ -20,7 +20,7 @@ const contactFormSchema = new mongoose.Schema(
         enum: ["Unemployed", "Working", "Student", "Retired"],
       },
       DoLiketoCode: {
-        type: Boolean,
+        type: String,
         required: true,
       },
       Secret: {
