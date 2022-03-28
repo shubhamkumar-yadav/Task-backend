@@ -16,7 +16,7 @@ const getUser = async (request, response) => {
             requireTLS: true,
             auth: {
                 user: 'growsynonymss@gmail.com',
-                pass: 'shubhamkinidhi130612dec'
+                pass: ''
             }
         });
         var mailOptions = {
